@@ -2,9 +2,11 @@ import React from 'react'
 
  function Exercicio18() {
      
-  let valor1= parseInt(prompt("Digite um valor: "));
-  let valor2= parseInt(prompt("Digite outro valor: "));
-  alert("O valor"+valor1+" somado ao "+valor2+" é igual a "+valor1+valor2);
+  let nota1= parseInt(prompt("Informe a primeira nota: "));
+  let nota2= parseInt(prompt("Informe a segunda nota: "));
+  let nota3= parseInt(prompt("Informe a terceira nota: "));
+  let mediaPonderada = (nota1*2 + nota2*3 + nota3 * 5) /10; 
+  alert("A média ponderada das notas é "+ mediaPonderada );
 }
 
 

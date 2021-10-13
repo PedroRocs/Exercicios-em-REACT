@@ -4,7 +4,7 @@ import React from 'react'
      
   let valor1= parseInt(prompt("Digite um valor: "));
 
-  alert("O sucessor do "+valor1+" é " + valor1+1);
+  alert("O sucessor de "+valor1+" é " + (valor1+1));
 }
 
 
