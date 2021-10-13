@@ -2,9 +2,11 @@ import React from 'react'
 
  function Exercicio23() {
      
-  let valor1= parseInt(prompt("Digite um valor: "));
-  let valor2= parseInt(prompt("Digite outro valor: "));
-  alert("O valor"+valor1+" somado ao "+valor2+" é igual a "+valor1+valor2);
+  let valorPrestacao= parseFloat(prompt("Informe o valor da prestação: "));
+  let taxa = parseFloat("Informe a taxa mensal a se pagar no caso de atraso(%)");
+  let atraso = parseInt(prompt("Informe o tempo de atraso: "));
+  let total = (valorPrestacao*taxa/100)* atraso;
+  alert("O total a ser pago vai ser de R$"+total.toFixed(2));
 }
 
 

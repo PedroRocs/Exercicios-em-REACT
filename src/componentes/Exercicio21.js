@@ -2,9 +2,10 @@ import React from 'react'
 
  function Exercicio21() {
      
-  let valor1= parseInt(prompt("Digite um valor: "));
-  let valor2= parseInt(prompt("Digite outro valor: "));
-  alert("O valor"+valor1+" somado ao "+valor2+" é igual a "+valor1+valor2);
+  let raio= parseInt(prompt("Informe o raio da circuferencia: "));
+  let altura = parseInt(prompt("Informe a altura da circuferencia: "));
+  let area = Math.PI*raio**2*altura;
+  alert("A area da circuferencia é:"+area);
 }
 
 

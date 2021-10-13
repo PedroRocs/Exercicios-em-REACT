@@ -2,10 +2,18 @@ import React from 'react'
 
  function Exercicio26() {
      
-  let valor1= parseInt(prompt("Digite um valor: "));
-  let valor2= parseInt(prompt("Digite outro valor: "));
-  alert("O valor"+valor1+" somado ao "+valor2+" é igual a "+valor1+valor2);
+  let comprimento= parseFloat(prompt("INFORME O COMPRIMENTO DA CAIXA(cm): "));
+  let largura= parseFloat(prompt("INFORME A LARGURA DA CAIXA (cm): "));
+  let altura= parseFloat(prompt("INFORME A ALTURA DA CAIXA (cm): "));
+
+  let volume = comprimento*largura*altura;
+
+  alert("O VOLUME DA CAIXA É DE "+volume+"cm³");
+
+  
 }
+  
+
 
 
 
