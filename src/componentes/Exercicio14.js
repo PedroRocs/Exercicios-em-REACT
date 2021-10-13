@@ -2,7 +2,7 @@ import React from 'react'
 
 function Exercicio14() {
   
-     
+  alert("Escreva um algoritmo para ler o salário mensal atual de um funcionário e o percentual de reajuste. Calcular e escrever o valor do novo salário. ");
     let salario= parseFloat(prompt("INFORME O SEU SALARIO: "));
     let reajuste= parseFloat(prompt("INFORME O PORCENTUAL DE REAJUSTE: "));
   

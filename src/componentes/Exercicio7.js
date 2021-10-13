@@ -1,7 +1,7 @@
 import React from 'react'
 
  function Exercicio7() {
-     
+  alert("Cacular a area do retangulo");
   let valor1= parseInt(prompt("Informe a altura do retangulo: "));
   let valor2= parseInt(prompt("Informe a base do retangulo: "));
   alert("A area do retangulo é "+valor1*valor2);
